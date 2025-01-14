@@ -8,15 +8,15 @@ const EducationSection = () => {
   const educationData = [
     {
       degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      school: "Anuhola High School",
       mascot: "📘",
-      achievements: ["GPA: 4.89", "Subject: Science"],
+      achievements: ["GPA: 4.00", "Subject: Science"],
     },
     {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      degree: "Running Education Diploma Computer Science",
+      school: "Tangail Exalts institude",
       mascot: "📗",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
+      achievements: ["GPA:Runnig", "Subject: Computer Science"],
     },
   ];
 

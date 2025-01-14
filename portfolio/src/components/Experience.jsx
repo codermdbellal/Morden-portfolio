@@ -21,7 +21,7 @@ const ExperienceCard = ({
 
       {/* Icon with glow effect */}
       <div className="relative mb-4">
-        <div className="absolute -inset-2 bg-blue-500 opacity-30 rounded-full blur-lg group-hover:opacity-70 transition-opacity" />
+        <div className="absolute -inset-2" />
         <Icon className="w-10 h-10 text-blue-400 relative z-10" />
       </div>
 
@@ -56,27 +56,27 @@ const ExperienceSection = () => {
   const experiences = [
     {
       icon: Network,
-      title: "WordPress Developer",
-      company: "Fiverr",
-      period: "2019 - 2020",
+      title: "Website Developer",
+      company: "Peopleperhour",
+      period: "2013 - 2024",
       description:
-        "Worked on developing and customizing WordPress websites for clients globally.",
+        "Worked on developing and customizing websites for clients globally.",
     },
     {
       icon: Layers,
-      title: "Junior Frontend Developer",
-      company: "Sera Programmer",
-      period: "2021 - 2023",
+      title: "Full Stack Developer",
+      company: "Programmer",
+      period: "2022 - 2025",
       description:
         "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
     },
     {
       icon: Code2,
       title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
+      company: "Create Task magament app",
       period: "2023 - Present",
       description:
-        "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
+        "Contributed to developing JavaScript Task management app and enhancing functionalities.",
     },
   ];
 

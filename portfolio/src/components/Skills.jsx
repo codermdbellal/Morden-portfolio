@@ -34,8 +34,8 @@ const SkillsSection = () => {
       color: "text-blue-400",
       skills: [
         "React",
-        "Next.js",
-        "TypeScript",
+        "Node js",
+        "Javascript",
         "Tailwind CSS",
         "HTML5",
         "CSS3",
@@ -47,7 +47,6 @@ const SkillsSection = () => {
       color: "text-green-400",
       skills: [
         "Node.js",
-        "Python",
         "PostgreSQL",
         "MongoDB",
         "REST APIs",
@@ -72,7 +71,6 @@ const SkillsSection = () => {
       color: "text-pink-400",
       skills: [
         "VS Code",
-        "Jest",
         "Webpack",
         "Redux",
         "Firebase",

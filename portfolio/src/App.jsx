@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import Hero from "./components/Hero";
 import "./assets/css/index.css";
@@ -10,7 +11,7 @@ import Projects from "./components/Projects";
 import { Route, Routes } from "react-router-dom";
 
 export default function App() {
-  const [isOnePage, setIsOnePage] = useState(false); // Toggle state
+  const [isOnePage, ] = useState(false); // Toggle state
 
   return (
     <>

@@ -32,7 +32,7 @@ const ProjectShowcase = () => {
           <div className="project">
            <img src={Image3} alt="" />
            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore beatae modi labore sequi repellendus !</p>
-           <a href="#" target="_blanck">
+           <a href="https://pizza-selling.onrender.com" target="_blanck">
              <button>Demo</button>
            </a>
           </div>

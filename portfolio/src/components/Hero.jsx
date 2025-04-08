@@ -3,9 +3,12 @@ import Prism from "prismjs";
 import "prismjs/components/prism-javascript";
 import "../assets/css/tomorrow.css";
 import Meteors from "./ui/meteors";
-import PortfolioPage from "./PortfolioPage";
 import SparklesText from "./ui/sparkles-text";
 import { FlipWords } from "./ui/flip-words";
+
+// import components
+import PortfolioPage from "./PortfolioPage";
+import Review from "../components/review/review.jsx";
 
 // AnimatedGrid Component
 const AnimatedGrid = () => {
@@ -141,8 +144,8 @@ const profile = {
               {/* Description */}
               <div className="relative mb-8 sm:mb-12 max-w-xl">
                 <p className="text-base sm:text-xl text-gray-300/90 leading-relaxed">
-                  JavaScript lover 🚀 | Website creation 🔧 | Crafting frameworks
-                  and coding the future 💻✨
+                  JavaScript lover 🚀 | Website creation 🔧 | Crafting
+                  frameworks and coding the future 💻✨
                 </p>
               </div>
 
@@ -176,7 +179,6 @@ const profile = {
                   </span>
                 </a>
               </div>
-
               {/* Floating badges */}
               <div className="hidden lg:block absolute left-[5.5rem] top-[2.3rem] animate-float-slow">
                 <div className="px-4 py-2 rounded-lg bg-purple-500/10 backdrop-blur-sm border border-purple-500/20 text-purple-400">
@@ -217,7 +219,9 @@ const profile = {
             </div>
           </div>
         </section>
+        {/*------------ Profile components --------------- */}
         <PortfolioPage />
+        <Review/>
       </main>
     </>
   );

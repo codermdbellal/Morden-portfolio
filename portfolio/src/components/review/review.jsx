@@ -1,15 +1,9 @@
 // import hooks
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect} from "react";
 import axios from "axios";
-// import components
 
 // import react icons
 import { FaStar } from "react-icons/fa";
-
-// Import Owl Carousel CSS
-import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
 
 // import css file
 import "./reviwe.css";
@@ -23,7 +17,7 @@ const Review = () => {
     e.preventDefault();
    
     try {
-      const res = await axios.post("http://localhost:3000/api/rating", {
+      const res = await axios.post("https://morden-portfolio.onrender.com/api/rating", {
         review,
         rating,
       });
@@ -43,7 +37,7 @@ const Review = () => {
   // ⬇️ Fetch posts from backend when component mounts
   useEffect(() => {
     const getData = async () => {
-      const res = await fetch("http://localhost:3000/api/rating");
+      const res = await fetch("https://morden-portfolio.onrender.com/api/rating");
       const data = await res.json();
       setPosts(data);
     };

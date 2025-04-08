@@ -5,6 +5,7 @@ import "../assets/css/tomorrow.css";
 import Meteors from "./ui/meteors";
 import SparklesText from "./ui/sparkles-text";
 import { FlipWords } from "./ui/flip-words";
+import { FaGithub } from "react-icons/fa";
 
 // import components
 import PortfolioPage from "./PortfolioPage";
@@ -159,7 +160,7 @@ const profile = {
                 >
                   <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-blue-500 group-hover:to-teal-400">
                     <span className="relative flex items-center justify-center gap-2 text-white font-medium">
-                      <span>Learn More</span>
+                      <span><FaGithub className="text-2xl" /></span>
                       <i className="fas fa-arrow-right transform transition-all duration-300 group-hover:translate-x-1"></i>
                     </span>
                   </span>
